@@ -74,28 +74,31 @@ class PostsList extends Component {
     this.setState({
       showProgress: true,
     });
-
-    try {
-      const response = await fetch(
-        `${feedUrl}?limit=${numberOfPosts}?since_id=${sinceId}`,
-      );
-      if (response.status >= 200 && response.status < 300) {
-        //Handle success
-        let data = await response.json();
+    console.log(LOG_TAG, 'start fetching');
+    fetch(feedUrl)
+      .then(async response => {
+        console.log(LOG_TAG, 'response', response);
+        if (response.status >= 200 && response.status < 300) {
+          //Handle success
+          let data = await response.json();
+          console.log(LOG_TAG, 'JSON data', data);
+          this.setState({
+            posts: data,
+          });
+          // sinceId = data[0].entity_id;
+        } else {
+          //Handle error
+        }
+      })
+      .catch(error => {
+        console.log(error);
+        console.log(error?.response);
+      })
+      .finally(() => {
         this.setState({
-          posts: data,
+          showProgress: false,
         });
-        sinceId = data[0].entity_id;
-      } else {
-        //Handle error
-      }
-    } catch (error) {
-      console.log(LOG_TAG, 'fetchPosts catch', error);
-    } finally {
-      this.setState({
-        showProgress: false,
       });
-    }
   }
 
   navigateTo = routeName => {

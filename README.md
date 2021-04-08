@@ -69,4 +69,4 @@ component design and or use of higher order components, and UI/UX best practices
 
 # Instructions for building and running the mobile app
 
-You need to follow [instuctions](https://facebook.github.io/react-native/docs/getting-started#running-your-react-native-application-2) for Android as I don't have a Mac currently
+You need to follow [instuctions](https://reactnative.dev/docs/environment-setup).

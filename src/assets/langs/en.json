@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "version": 1,
+  "data": {
+    "settings_header": "Settings",
+    "postslists_header": "Posts list",
+    "feed_url_placeholder": "Feed URL",
+    "enter_feed_url": "Enter feed url",
+    "value_blank_or_incorrect": "Value can't be blank or value is incorrect",
+    "number_of_posts_placeholder": "Number of posts to display",
+    "enter_number_of_posts": "Enter number of posts to display",
+    "update_interval_placeholder": "Update interval",
+    "enter_update_interval": "Enter update interval between 30 seconds and 60 minutes in format 'MM:SS'",
+    "save_button": "SAVE",
+    "reset_button": "RESET"
+  }
+}

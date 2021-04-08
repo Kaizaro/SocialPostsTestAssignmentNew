@@ -1,0 +1,11 @@
+{
+  "CETACEAN_BLUE": "#08154A",
+  "CETACEAN_BLUE_OPAQUE": "rgba(8, 21, 74, 0.5)",
+  "CRIMSON": "#D51635",
+  "CRIMSON_OPAQUE": "rgba(213, 22, 53, 0.5)",
+  "WHITE": "#FFFFFF",
+  "BLACK_TEXT": "#212121",
+  "GRAY_TEXT": "#9e9e9e",
+  "GREEN": "green",
+  "BLACK": "#000000"
+}

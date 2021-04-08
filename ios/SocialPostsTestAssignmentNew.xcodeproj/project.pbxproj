@@ -145,7 +145,6 @@
 				B704EBD59D5626B70230679E /* Pods-SocialPostsTestAssignmentNew-SocialPostsTestAssignmentNewTests.debug.xcconfig */,
 				E63EE7ED3100C0AF7B71A3A9 /* Pods-SocialPostsTestAssignmentNew-SocialPostsTestAssignmentNewTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -485,6 +484,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DY2WBTAT33;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = SocialPostsTestAssignmentNew/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -511,6 +511,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DY2WBTAT33;
 				INFOPLIST_FILE = SocialPostsTestAssignmentNew/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -3,7 +3,7 @@
 
 // actual url on mocky
 export const DEFAULT_API_URL =
-  'https://run.mocky.io/v3/a78c9189-5570-46b2-8a6a-e4d23ee7475e';
+  'https://run.mocky.io/v3/27a44f7d-67ca-4e96-b901-a159d315b922';
 
 export const DEFAULT_NUMBER_OF_POSTS = 10;
 

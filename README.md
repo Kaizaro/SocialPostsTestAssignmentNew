@@ -61,8 +61,7 @@ Provide instructions for building and running the mobile app locally and on iOS 
 
 While implementing, think about loading and rendering performance, memory usage and leaks.
 
-The following feed can be used: http://api.massrelevance.com/MassRelDemo/kindle.json . It supports both CORS and JSONP. It also provides some Web API:
-http://dev.massrelevance.com/docs/api/v1.0/stream/#ref-params-standard
+The following feed can be used by URL: https://run.mocky.io/v3/01a05594-3f31-405e-bf81-edefc1624aad.
 
 Bonus points for more advanced webpack/babel configurations, adding unit tests, atomic
 component design and or use of higher order components, and UI/UX best practices.

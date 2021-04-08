@@ -5,8 +5,6 @@
 export const DEFAULT_API_URL =
   'https://run.mocky.io/v3/27a44f7d-67ca-4e96-b901-a159d315b922';
 
-// export const DEFAULT_API_URL = 'https://run.mocky.io/v3/b5803871-87db-4c3a-a9b1-ff82924dfd12';
-
 export const DEFAULT_NUMBER_OF_POSTS = 10;
 
 export const DEFAULT_UPDATE_INTERVAL = 60;

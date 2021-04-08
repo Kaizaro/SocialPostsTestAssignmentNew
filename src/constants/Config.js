@@ -7,4 +7,4 @@ export const DEFAULT_API_URL =
 
 export const DEFAULT_NUMBER_OF_POSTS = 10;
 
-export const DEFAULT_UPDATE_INTERVAL = 300;
+export const DEFAULT_UPDATE_INTERVAL = 60;
